@@ -8,8 +8,14 @@ export default function Menu() {
                 <MenuLink to="/">
                     Início
                 </MenuLink>
+                <MenuLink to="/formacao">
+                    Formação
+                </MenuLink>
                 <MenuLink to="/sobremim">
                     Sobre Mim
+                </MenuLink>
+                <MenuLink to="/contato">
+                    Contato
                 </MenuLink>
             </nav>
         </header>
