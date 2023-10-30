@@ -1,6 +1,6 @@
 import styles from './Banner.module.css';
 import circuloColorido from 'assets/circulo_colorido.png';
-import minhaFoto from 'assets/minha_foto.png'
+import minhaFoto from 'assets/eumesmo.jpg'
 
 export default function Banner() {
     return (
@@ -11,7 +11,7 @@ export default function Banner() {
                 </h1>
 
                 <p className={styles.paragrafo}>
-                    Boas vindas ao meu espaço pessoal! Eu sou Antônio Evaldo, instrutor de Front-end da Alura. Aqui compartilho vários conhecimentos, espero que aprenda algo novo :)
+                    Bem vindo ao meu portfólio! Meu nome é Gabriel Dupont, sou desenvolvedor Full-Stack e este é o meu site pessoal. Aqui você pode encontrar um pouco sobre mim, meus projetos e entrar em contato comigo.
                 </p>
             </div>
 
@@ -26,7 +26,7 @@ export default function Banner() {
                 <img
                     className={styles.minhaFoto}
                     src={minhaFoto}
-                    alt="Foto do Antônio Evaldo sorrindo"
+                    alt="Foto do Gabriel Dupont de terno olhando para o lado"
                 />
             </div>
         </div>
