@@ -19,9 +19,12 @@ function AppRoutes() {
           <Route index element={<Inicio />} />
           <Route path="sobremim" element={<SobreMim />} />
           <Route path="formacao" element={<></>} />
+          <Route path="contato" element={<></>} />
         </Route>
         
         <Route path="posts/:id/*" element={<Post />} />
+
+
         <Route path="*" element={<NaoEncontrada />} />
       </Routes>
 

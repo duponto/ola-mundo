@@ -11,7 +11,8 @@ export default function Banner() {
                 </h1>
 
                 <p className={styles.paragrafo}>
-                    Bem vindo ao meu portfólio! Meu nome é Gabriel Dupont, sou desenvolvedor Full-Stack e este é o meu site pessoal. Aqui você pode encontrar um pouco sobre mim, meus projetos e entrar em contato comigo.
+                    Bem vindo ao meu portfólio! Meu nome é Gabriel Dupont, sou desenvolvedor Full-Stack e este é o meu site pessoal.
+                    Aqui você pode encontrar um pouco sobre mim, minhas experiências, meus projetos e entrar em contato comigo.
                 </p>
             </div>
 
@@ -26,7 +27,7 @@ export default function Banner() {
                 <img
                     className={styles.minhaFoto}
                     src={minhaFoto}
-                    alt="Foto do Gabriel Dupont de terno olhando para o lado"
+                    alt="Foto do Gabriel Dupont olhando para o lado"
                 />
             </div>
         </div>
